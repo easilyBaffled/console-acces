@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easilyBaffled/console-acces.git"
+    "url": "git+https://github.com/easilyBaffled/console-access.git"
   },
   "author": "Danny Michaelis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/easilyBaffled/console-acces/issues"
+    "url": "https://github.com/easilyBaffled/console-access/issues"
   },
-  "homepage": "https://github.com/easilyBaffled/console-acces#readme"
+  "homepage": "https://github.com/easilyBaffled/console-access#readme"
 }

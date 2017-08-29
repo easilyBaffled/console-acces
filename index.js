@@ -32,7 +32,7 @@ module.exports = function ( onConsole = true, label = '_', target = window ) {
             objectList.push( arg );
             return objectList;
         }, [] );
-        
+
         target._lastLabel = ( target._lastLabel || 0 ) + args.length;
 
         console.log( str, ...objectList );

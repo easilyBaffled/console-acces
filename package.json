@@ -1,17 +1,20 @@
 {
   "name": "console-access",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "The console function you didn't know it need.",
-  "main": "index.js",
+  "main": "dist/bundle",
+  "module": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "npm run build && git commit . -m Build && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easilyBaffled/console-access.git"
+    "url": "https://github.com/easilyBaffled/console-access.git"
   },
-  "author": "Danny Michaelis",
-  "license": "ISC",
+  "author": "Danny Michaelis, easilyBaffled",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/easilyBaffled/console-access/issues"
   },

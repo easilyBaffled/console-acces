@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Console Access
 
 A logging utility that pretends to be a part of the Console API

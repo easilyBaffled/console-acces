@@ -109,4 +109,3 @@ Example
           return true;
     
       };
->>>>>>> origin/master

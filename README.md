@@ -35,9 +35,9 @@ A configuration module for the access function.
         console.access( 'some value' )
         console.access( { 'creative': 'naming' } )
     
-        >\> _0: "some value"
+        > _0: "some value"
          
-        >\> _1: Object
+        > _1: Object
     
 You can now access the object in your console with the label `_1` 
     
@@ -49,9 +49,9 @@ You can now access the object in your console with the label `_1`
         access( 'some value' )
         access( { 'creative': 'naming' } )
         
-        >\> myLabel0: "some value"
+        > myLabel0: "some value"
          
-        >\> myLabel1: Object
+        > myLabel1: Object
     
 The values are still logged so that you can see what has been attached, but they are not on `window` they are on `target`.
 =======

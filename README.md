@@ -2,7 +2,7 @@
 
 A logging utility that pretends to be a part of the Console API
 
-[![npm version](https://badge.fury.io/js/console-access.svg)](https://badge.fury.io/js/console-access) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![npm version](https://badge.fury.io/js/console-access.svg)](https://badge.fury.io/js/console-access) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Greenkeeper badge](https://badges.greenkeeper.io/easilyBaffled/console-access.svg)](https://greenkeeper.io/) 
 
 Console-Access lets you view and manipulate values running through your project in the developer console, as you would with a breakpoint, only without having to stop. 
 The module by default does things that some developers may not prefer. Like attaching the `access` function to the native Console API, or temporarily adding the logged values to the `Window` object. The module has been made highly configurable, so `access` can work as a standalone function, and attach the values to any object you like.
